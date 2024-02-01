@@ -15,7 +15,7 @@ Global server load balancing occurs across several geographically distributed se
 
 ##
 
-![LoadBalancer](/blog-ui/assets/posts/Images/LoadBalancerTypes.svg)
+![LoadBalancer](/assets/posts/Images/LoadBalancerTypes.svg)
 
 ### Network Load Balancer Vs Application Load Balancer
 
