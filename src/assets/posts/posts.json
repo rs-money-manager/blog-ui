@@ -2,20 +2,20 @@
   "posts": [
     {
       "title": "Load Balancer",
-      "fileLocation": "assets/posts/example.md",
+      "fileLocation": "assets/posts/LoadBalancer.md",
       "date": "Jan 31, 2024",
       "description": "A load balancer evenly distributes incoming traffic among web servers that are defined in a load balancer set. Load balancer sits between client and servers group and acts as invisible facilitator, ensuring all the workloads are equally distributes."
     },
     {
-      "title": "Load Balancer",
-      "fileLocation": "assets/posts/example.md",
-      "date": "Jan 31, 2024",
+      "title": "Load Balancer - Types",
+      "fileLocation": "assets/posts/LoadBalancer-Types.md",
+      "date": "Feb 1, 2024",
       "description": "A load balancer evenly distributes incoming traffic among web servers that are defined in a load balancer set. Load balancer sits between client and servers group and acts as invisible facilitator, ensuring all the workloads are equally distributes."
     },
     {
-      "title": "Load Balancer",
-      "fileLocation": "assets/posts/example.md",
-      "date": "Jan 31, 2024",
+      "title": "Load Balancer - Avoid SPOF of Load Balancer",
+      "fileLocation": "assets/posts/LoadBalancerAvoidSPOF.md",
+      "date": "Feb 1, 2024",
       "description": "A load balancer evenly distributes incoming traffic among web servers that are defined in a load balancer set. Load balancer sits between client and servers group and acts as invisible facilitator, ensuring all the workloads are equally distributes."
     }
   ]
