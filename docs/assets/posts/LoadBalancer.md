@@ -2,7 +2,7 @@ A load balancer evenly distributes incoming traffic among web servers that are d
 
 load balancer sits between client and servers group and acts as invisible facilitator, ensuring all the workloads are equally distributes.
 
-![LoadBalancer](/assets/posts/Images/LoadBalancer.svg)
+![LoadBalancer](/blog-ui/assets/posts/Images/LoadBalancer.svg)
  
 1. If server 1 goes offline, all traffic will be routed to server 2. Prevents site from going offline.  
 2. If traffic grows rapidly and two servers are not enough to handle server then we can add servers and if traffic becomes normal we can remove servers
@@ -25,7 +25,7 @@ Global server load balancing occurs across several geographically distributed se
 
 ##
 
-![LoadBalancer](/assets/posts/Images/LoadBalancerTypes.svg)
+![LoadBalancer](/blog-ui/assets/posts/Images/LoadBalancerTypes.svg)
 
 ### Network Load Balancer Vs Application Load Balancer
 
@@ -48,7 +48,7 @@ Two Types of Load Balancing Algorithm
 #### Static Load Balancing :
 Fixed rules and independent of current server state.
 
-![LoadBalancer](/assets/posts/Images/LoadBalancerStaticAlgo.svg)
+![LoadBalancer](/blog-ui/assets/posts/Images/LoadBalancerStaticAlgo.svg)
 
 1. **Round Robin Method: (Most used)**  
 The domain name service returns the IP address of the server to the load balancer and it distributes traffic in turn by turn or round robin fashion.  
@@ -61,7 +61,7 @@ Load Balancer distributes the traffic based on hash value of the IP address.
 ####  Dynamic Load Balancing  
 examines the current state of the server before distributing traffic.
 
-![LoadBalancer](/assets/posts/Images/LoadBalancerDynamicAlgo.svg)
+![LoadBalancer](/blog-ui/assets/posts/Images/LoadBalancerDynamicAlgo.svg)
 
 1. **Least Connection Method:**  
 the load balancer checks which servers have the fewest active connections and sends traffic to those servers.  
@@ -77,7 +77,7 @@ The response time is the total time that the server takes to process the incomin
 
 ## Benefits of Load Balancing:
 
-![LoadBalancer](/assets/posts/Images/LoadBalancerBenefits.svg)
+![LoadBalancer](/blog-ui/assets/posts/Images/LoadBalancerBenefits.svg)
   
 1. **Application Availability:**  
 Server failure or maintenance can increase application downtime, making your application unavailable to visitors. Load balancers increase the fault tolerance of your systems by automatically detecting server problems and redirecting client traffic to available servers.  
