@@ -1,0 +1,43 @@
+.date {
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 320;
+  font-size: medium;
+}
+p {
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 500;
+  font-size: medium;
+  color: #34495e;
+}
+h3 {
+  color: #5d6d7e;
+}
+a {
+  text-decoration: none;
+  color: #5d6d7e;
+}
+
+.enable-web {
+  display: block;
+  visibility: visible;
+}
+.enable-mobile {
+  visibility: hidden;
+  display: none;
+}
+
+.header {
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .enable-web {
+    visibility: hidden;
+    display: none;
+  }
+  .enable-mobile {
+    display: block;
+    visibility: visible;
+    width: 90%;
+  }
+}

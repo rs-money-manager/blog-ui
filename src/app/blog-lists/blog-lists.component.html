@@ -1,0 +1,64 @@
+<div class="container enable-web">
+  <div class="row">
+    <div class="col-8">
+      <div style="margin-bottom: 10px"></div>
+      <ul class="list-group list-group-flush">
+        <li *ngFor="let post of posts; index as i" class="list-group-item">
+          <h3>
+            <a [routerLink]="['/post', i]" class="header">{{ post.title }}</a>
+          </h3>
+          <p class="date">{{ post.date }}</p>
+          <p>{{ post.description }}</p>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex col-md-auto">
+      <div class="vr"></div>
+    </div>
+    <!-- Filter Topic vise -->
+    <div class="col">
+      <h3 class="header">Topics</h3>
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold" style="color: #5d6d7e;">System Design</div>
+          </div>
+          <span class="badge bg-primary rounded-pill">1</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold" style="color: #5d6d7e;">Angular</div>
+          </div>
+          <span class="badge bg-primary rounded-pill">0</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold" style="color: #5d6d7e;">Spring Boot</div>
+          </div>
+          <span class="badge bg-primary rounded-pill">0</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold" style="color: #5d6d7e;">Java</div>
+          </div>
+          <span class="badge bg-primary rounded-pill">0</span>
+        </li>
+      </ol>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="container enable-mobile">
+  <div style="margin-bottom: 10px"></div>
+  <ul class="list-group list-group-flush">
+    <li *ngFor="let post of posts; index as i" class="list-group-item">
+      <h3>
+        <a [routerLink]="['/post', i]" class="header">{{ post.title }}</a>
+      </h3>
+      <p class="date">{{ post.date }}</p>
+      <p>{{ post.description }}</p>
+    </li>
+  </ul>
+</div>

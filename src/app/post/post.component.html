@@ -1,0 +1,17 @@
+<div class="container enable-web">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-8">
+        <h1 *ngIf="markdownContent.title.length != 0">{{ markdownContent.title }}</h1>
+        <p class="date" *ngIf="markdownContent.date.length != 0">{{ markdownContent.date }}</p>
+        <div *ngIf="markdownContent.content.length != 0" markdown>{{ markdownContent.content }}</div>
+    </div>
+    <div class="col"></div>
+  </div>
+</div>
+
+<div class="container enable-mobile">
+  <h1 *ngIf="markdownContent.title.length != 0">{{ markdownContent.title }}</h1>
+  <p class="date" *ngIf="markdownContent.date.length != 0">{{ markdownContent.date }}</p>
+  <div *ngIf="markdownContent.content.length != 0" markdown>{{ markdownContent.content }}</div>
+</div>
