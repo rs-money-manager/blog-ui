@@ -15,37 +15,20 @@
     <div class="d-flex col-md-auto">
       <div class="vr"></div>
     </div>
+
     <!-- Filter Topic vise -->
     <div class="col">
       <h3 class="header">Topics</h3>
-      <ol class="list-group list-group-numbered">
+      <ol class="list-group list-group-numbered" *ngFor="let key of getObjectKeys(distinctType)">
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
-            <div class="fw-bold" style="color: #5d6d7e;">System Design</div>
+            <div class="fw-bold" style="color: #5d6d7e;">{{ key }}</div>
           </div>
-          <span class="badge bg-primary rounded-pill">3</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold" style="color: #5d6d7e;">Angular</div>
-          </div>
-          <span class="badge bg-primary rounded-pill">0</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold" style="color: #5d6d7e;">Spring Boot</div>
-          </div>
-          <span class="badge bg-primary rounded-pill">0</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold" style="color: #5d6d7e;">Java</div>
-          </div>
-          <span class="badge bg-primary rounded-pill">0</span>
+          <span class="badge bg-primary rounded-pill">{{ distinctType[key] }}</span>
         </li>
       </ol>
     </div>
-
+    
   </div>
 </div>
 

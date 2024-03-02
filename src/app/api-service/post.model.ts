@@ -1,5 +1,6 @@
 export interface Post {
     title: string;
+    type: string;
     fileLocation: string;
     date: string;
     description: string;

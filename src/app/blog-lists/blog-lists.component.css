@@ -17,6 +17,10 @@ a {
   color: #5d6d7e;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .enable-web {
   display: block;
   visibility: visible;
