@@ -20,6 +20,13 @@
       "fileLocation": "assets/posts/LoadBalancerAvoidSPOF.md",
       "date": "Feb 1, 2024",
       "description": "A load balancer evenly distributes incoming traffic among web servers that are defined in a load balancer set. Load balancer sits between client and servers group and acts as invisible facilitator, ensuring all the workloads are equally distributes."
+    },
+    {
+      "title": "Binary Search",
+      "type": "Data Structures and Algorithms",
+      "fileLocation": "assets/posts/BinarySearch1.md",
+      "date": "Apr 26, 2024",
+      "description": "A load balancer evenly distributes incoming traffic among web servers that are defined in a load balancer set. Load balancer sits between client and servers group and acts as invisible facilitator, ensuring all the workloads are equally distributes."
     }
   ]
 }
